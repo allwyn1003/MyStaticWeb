@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portal Overview</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>My Portal Overview</h1>
+    <nav>
+      <a href="#">Dashboard</a>
+      <a href="#">Projects</a>
+      <a href="#">Reports</a>
+      <a href="#">Settings</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="cards-container">
+      <div class="card">
+        <h2>Active Users</h2>
+        <p id="usersCount">1,245</p>
+      </div>
+
+      <div class="card">
+        <h2>Projects</h2>
+        <p id="projectsCount">12</p>
+      </div>
+
+      <div class="card">
+        <h2>Server Status</h2>
+        <p id="status">✅ Online</p>
+      </div>
+
+      <div class="card">
+        <h2>Monthly Visits</h2>
+        <p id="visits">45,230</p>
+      </div>
+    </section>
+
+    <section class="overview">
+      <h2>Overview</h2>
+      <p>
+        Welcome to your portal dashboard. This is a static overview page showing
+        sample metrics and details. You can deploy this on Azure Static Web App or GitHub Pages easily.
+      </p>
+      <button id="refreshBtn">Refresh Data</button>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 My Web Portal | Built with❤️ using HTML, CSS & JS</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
